@@ -198,8 +198,8 @@ section.success {
   color: #FFF;
   overflow: hidden;
   font-family: inherit;
-  font-size: inherit;
-  background-color: rgba(255,255,255,0.2);
+  font-size: 1.2em;
+  background-color: rgba(24, 193, 206, 0.2);
   cursor: pointer;
   padding: 25px 80px;
   display: inline-block;
@@ -220,7 +220,7 @@ section.success {
     height: 100%;
     font-size: 125%;
     line-height: 3.5;
-    color: teal;
+    color:  rgb(24, 193, 206);
     transition: all 0.3s ease 0s;
     content: "\f019";
     font-family: "FontAwesome";
@@ -233,7 +233,7 @@ section.success {
 
 .dlbtn:hover {
   background: #fff;
-  color: teal;
+  color: rgb(24, 193, 206);
 }
 
 

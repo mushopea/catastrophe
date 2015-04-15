@@ -83,6 +83,10 @@ header {
     text-align: center;
     color: #fff;
     background: #18bc9c;
+    background-image: url('../img/cs3247.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center top;
 }
 
 header .container {
@@ -183,6 +187,55 @@ section.success {
     color: #fff;
     background: #18bc9c;
 }
+
+.bannerdiv {
+  height: 700px;
+}
+
+.dlbtn {
+  border-radius: 50px;
+  border: 4px solid #FFF;
+  color: #FFF;
+  overflow: hidden;
+  font-family: inherit;
+  font-size: inherit;
+  background-color: rgba(255,255,255,0.2);
+  cursor: pointer;
+  padding: 25px 80px;
+  display: inline-block;
+  margin: 15px 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  outline: medium none;
+  position: relative;
+  transition: all 0.3s ease;
+  margin-top: 140px;
+}
+
+.dlbtn::before {
+    left: 130%;
+    top: 0px;
+    position: absolute;
+    height: 100%;
+    font-size: 125%;
+    line-height: 3.5;
+    color: teal;
+    transition: all 0.3s ease 0s;
+    content: "\f019";
+    font-family: "FontAwesome";
+    box-sizing: border-box;
+}
+
+.dlbtn:hover:before {
+	left: 80%;
+}
+
+.dlbtn:hover {
+  background: #fff;
+  color: teal;
+}
+
 
 section.success a,
 section.success a:hover,

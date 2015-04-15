@@ -63,7 +63,7 @@ hr.star-light {
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: none;
 }
 
 hr.star-primary {
@@ -157,6 +157,8 @@ header .intro-text .skills {
     font-weight: 700;
 }
 
+
+
 .navbar a:focus {
     outline: 0;
 }
@@ -174,6 +176,14 @@ header .intro-text .skills {
     border: 0;
 }
 
+.navbar-brand::before {
+    height: 100%;
+    font-size: 100%;
+    content: "\f113    ";
+    font-family: "FontAwesome";
+    box-sizing: border-box;
+}
+
 section {
     padding: 100px 0;
 }
@@ -185,7 +195,17 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #18bc9c;
+    background: #FF7070;
+}
+
+section.download {
+    color: #fff;
+    background: #9864B3;
+}
+
+section.userguide {
+    color: #fff;
+    background: #92B364;
 }
 
 .bannerdiv {

@@ -222,8 +222,18 @@ section.userguide {
     background: #92B364;
 }
 
+section.features {
+  background: none repeat scroll 0% 0% #FFDDB7;;
+}
+
 .bannerdiv {
   height: 700px;
+}
+
+.showcaseimg {
+  display: inline-block;
+  padding: 10px 20px;
+  width: 200px;
 }
 
 .dlbtn {

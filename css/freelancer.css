@@ -151,6 +151,19 @@ header .intro-text .skills {
     }
 }
 
+@media(max-width: 880px) {
+
+    header {
+          background: #18bc9c;
+          background-image: url('../img/bg2.png');
+    }
+
+    .bannerdiv {
+        height: auto !important;
+    }
+
+}
+
 .navbar {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -165,6 +178,7 @@ header .intro-text .skills {
 
 .navbar .navbar-nav {
     letter-spacing: 1px;
+    font-size: 0.9em;
 }
 
 .navbar .navbar-nav li a:focus {

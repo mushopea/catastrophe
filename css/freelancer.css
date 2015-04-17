@@ -114,8 +114,8 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 150px;
+        padding-bottom: 0px;
     }
 
     header .intro-text .name {
@@ -160,6 +160,11 @@ header .intro-text .skills {
 
     .bannerdiv {
         height: auto !important;
+    }
+
+    .dlbtn {
+      font-size: 0.9em !important;
+      padding: 10px 36px !important;
     }
 
 }
@@ -230,10 +235,14 @@ section.features {
   height: 700px;
 }
 
+.featurerow {
+  padding: 50px 0px;
+}
+
 .showcaseimg {
   display: inline-block;
-  padding: 10px 20px;
-  width: 200px;
+  padding: 10px 16px;
+  width: 150px;
 }
 
 .dlbtn {
@@ -254,7 +263,7 @@ section.features {
   outline: medium none;
   position: relative;
   transition: all 0.3s ease;
-  margin-top: 140px;
+  margin-top: 180px;
 }
 
 .dlbtn::before {
@@ -280,6 +289,16 @@ section.features {
   color: rgb(24, 193, 206);
 }
 
+.sectionsvg {
+  width: 150px;
+  height: 150px;
+  fill: currentColor;
+}
+
+.svgcontainer {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
 section.success a,
 section.success a:hover,

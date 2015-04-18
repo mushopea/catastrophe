@@ -22,7 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #18bc9c;
+    color: #4BE6C7;
 }
 
 h1,
@@ -243,6 +243,11 @@ section.features {
   display: inline-block;
   padding: 10px 16px;
   width: 150px;
+}
+
+.hideme {
+  display: inline-block;
+  color: transparent;
 }
 
 .dlbtn {

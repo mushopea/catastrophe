@@ -112,6 +112,13 @@ header .intro-text .skills {
     font-weight: 300;
 }
 
+
+.center-vertically {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 @media(min-width:768px) {
     header .container {
         padding-top: 150px;
@@ -268,7 +275,6 @@ section.features {
   outline: medium none;
   position: relative;
   transition: all 0.3s ease;
-  margin-top: 180px;
 }
 
 .dlbtn::before {
@@ -325,6 +331,9 @@ section.success a.active {
 
     section.first {
         padding-top: 75px;
+    }
+    .dlbtn {
+      margin-top: 180px;
     }
 }
 
